@@ -6,6 +6,14 @@
 
 using namespace std;
 
+int flip()
+{
+    int c_num;
+    c_num= (rand()%2)+1;
+
+    return c_num;
+}
+
 int main(){
     setlocale(LC_ALL,"Turkish");
     cout << "**************************************************\n"
@@ -25,7 +33,7 @@ int main(){
 
 
     while (atış > 0){
-            a = (rand()%2)+1;
+            a = flip();
 
             if (a == 1){
                 cout << "Yazı"<< endl;
@@ -46,14 +54,7 @@ int main(){
     }
 
 }
-int flip()
-{
-    setlocale(LC_ALL,"Turkish");
-    int c_num;
-    c_num= (rand()%2)+1;
 
-    return c_num;
-}
 
 
 
