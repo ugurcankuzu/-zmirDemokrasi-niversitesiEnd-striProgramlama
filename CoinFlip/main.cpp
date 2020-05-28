@@ -26,7 +26,7 @@ int main(){
     int turaSayısı = 0;
     int atış=0;
     char a;
-    cout << "Kaç kere yazı-tura atmak istiyorsunuz?";
+    cout << "Kaç kere yazı-tura atmak istiyorsunuz: ";
     cin >> atış;
 
     srand(time(0));
