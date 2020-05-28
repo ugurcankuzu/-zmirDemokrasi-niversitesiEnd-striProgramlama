@@ -63,7 +63,7 @@ int main()
                 cout << "Tekrar görüşmek üzere!!!";
                 break;
             } else
-                cout << "Bir sonrakine lütfen sadece E ve H kullanın(BÜYÜK HARF) bu yüzden bir tur daha oynamak ile cezalısınız!!!";
+                cout << "Bir sonrakine lütfen sadece E ve H kullanın(BÜYÜK HARF) Eğer çıkmak için h yazdıysanız bir tur daha oynamak ile cezalısınız!!!";
             continue;
 
         }
