@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ugurcan/CLionProjects/CoinFlip/main.cpp
+iostream
+-
+ctime
+-
+cstdlib
+-
+cmath
+-
+locale.h
+-
+
