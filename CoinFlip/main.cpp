@@ -24,11 +24,10 @@ int main(){
 
         int yaziSayisi = 0;
         int turaSayisi = 0;
-        int atis = 0;
+        int atis = 100;
         char a;
-        cout << "Kaç kere yazı-tura atmak istiyorsunuz?";
-        cin >> atis;
-
+        cout << "100 kere para attırıyorum!";
+        
         srand(time(0));
 
 
