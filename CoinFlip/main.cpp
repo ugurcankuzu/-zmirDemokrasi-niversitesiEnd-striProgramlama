@@ -22,35 +22,36 @@ int main(){
 
 
 
-    int yazıSayısı = 0;
-    int turaSayısı = 0;
-    int atış=0;
-    char a;
-    cout << "Kaç kere yazı-tura atmak istiyorsunuz: ";
-    cin >> atış;
+        int yaziSayisi = 0;
+        int turaSayisi = 0;
+        int atis = 0;
+        char a;
+        cout << "Kaç kere yazı-tura atmak istiyorsunuz?";
+        cin >> atis;
 
-    srand(time(0));
+        srand(time(0));
 
 
-    while (atış > 0){
+
+    while (atis > 0){
             a = flip();
 
             if (a == 1){
                 cout << "Yazı"<< endl;
-                yazıSayısı ++;
+                yaziSayisi ++;
             }
             else if (a == 2){
                 cout << "Tura"<< endl;
-                turaSayısı ++;
+                turaSayisi ++;
             }
-            atış --;
+            atis --;
 
 
     }
 
-    if(atış == 0){
-        cout << "Gelen yazı sayısı:" << yazıSayısı << endl;
-        cout << "Gelen tura sayısı:" << turaSayısı;
+    if(atis == 0){
+        cout << "Gelen yazı sayısı:" << yaziSayisi << endl;
+        cout << "Gelen tura sayısı:" << turaSayisi;
     }
 
 }
